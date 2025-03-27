@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Reach out</a></li>
+                <li><a href="hospital.html" class="login-btn">SIGNUP/LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Book Appointment</h1>
+    <p>With the top Doctors in Town</p>
+    
+    <input type="text" placeholder="Search for Doctor’s or Specialty">
+    <button>🔍</button>
+
+    <select>
+        <option>By Specialty</option>
+    </select>
+    <button>Sort By</button>
+
+    <div class="doctor-list">
+        <div class="doctor-card">
+            <img src="doctor1.jpg" alt="Dr. A Mukund">
+            <h3>Dr. A Mukund</h3>
+            <p>Principal Director Cardiology</p>
+            <button onclick="location.href='hospital.html'">Book Appointment</button>
+        </div>
+        <div class="doctor-card">
+            <img src="doctor2.jpg" alt="Dr. Kamali Naik">
+            <h3>Dr. Kamali Naik</h3>
+            <p>Principal Director Cardiology</p>
+            <button onclick="location.href='hospital.html'">Book Appointment</button>
+        </div>
+        <div class="doctor-card">
+            <img src="doctor3.jpg" alt="Dr. M Kumaran">
+            <h3>Dr. M Kumaran</h3>
+            <p>Principal Director Cardiology</p>
+            <button onclick="location.href='hospital.html'">Book Appointment</button>
+        </div>
+    </div>
+
+    <button class="load-more">Load More Doctors</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
